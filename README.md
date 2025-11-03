@@ -50,8 +50,24 @@ RegistroComunitario/
 ├── Program.cs
 └── README.md
 
+
 ---
 
-🪶 Licencia
-Este proyecto fue creado con fines educativos y puede ser reutilizado libremente con atribución.
-MIT License © 2025 Jervis Calvo
+## ⚙️ Instalación y ejecución
+
+### 1️⃣ Clonar el repositorio
+```bash
+git clone https://github.com/<tu_usuario>/RegistroComunitario.git
+cd RegistroComunitario
+
+🧠 Funcionamiento del sistema
+
+El usuario ingresa a la página principal.
+
+Puede registrar un nuevo participante o ver la lista existente.
+
+El controlador valida los datos y los envía al repositorio en memoria.
+
+Los datos se muestran en la vista de listado (Index.cshtml).
+
+El flujo completo sigue el patrón Modelo–Vista–Controlador (MVC).
